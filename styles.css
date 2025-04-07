@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: #ffffff;
+}
+
+
+
+.title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 3rem;
+ 
+}
+
+.palindrome-div {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: white;
+  
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  .label {color: #0a0a23;
+  margin-bottom: 20px;
+}
+
+.palindrome-btn {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.palindrome-input::placeholder {
+  text-align: center;
+}
+
+.user-input {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+.palindrome-definition {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.palindrome-definition-div {
+  width: min(100vw, 450px);
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color: #A9A9A9;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}.results-div {
+  overflow-y: auto;
+  word-wrap: break-word;
+  min-height: 50px;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+.palindrome-input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.palindrome-input:focus {
+  border-bottom: 3px solid #5a01a7;
+}
